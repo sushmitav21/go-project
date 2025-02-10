@@ -1,0 +1,19 @@
+.env
+echo "
+# Binaries
+*.exe
+*.out
+*.o
+*.a
+*.so
+*.dll
+
+# Build and cache
+/bin/
+/pkg/
+/vendor/
+
+# Go specific
+go.sum
+go.work
+" > .gitignore
